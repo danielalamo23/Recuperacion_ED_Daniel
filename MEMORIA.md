@@ -44,14 +44,33 @@ Tras analizar el código fuente original `Ejercicio02.java`, se han identificado
 
 ## 3. Implementación de Refactorizaciones (Tarea 3)
 
-La implementación se ha llevado a cabo utilizando las herramientas automáticas de refactorización de **Eclipse** para minimizar errores humanos. Cada cambio se ha realizado en una rama de trabajo independiente.
+Se han aplicado tres patrones de refactorización utilizando las herramientas automáticas de **Eclipse IDE**. A continuación se muestran las evidencias del proceso:
 
-> **Evidencia del uso del IDE (Menú Refactor):**
-<img width="1863" height="615" alt="Extract Constant" src="https://github.com/user-attachments/assets/937cbe2b-dfd4-465e-ac23-236041c2a59a" />
+### 3.1. Patrón: Extract Constant (Extracción de Constante)
+Se ha extraído el valor literal `0.15` para crear la constante `PORCENTAJE_DESCUENTO_VIP`, evitando así el uso de "números mágicos" y mejorando el mantenimiento del código.
 
-<img width="1863" height="615" alt="Extract Method" src="https://github.com/user-attachments/assets/39b0d612-d17a-4c45-8c43-09f239cad412" />
+> **Evidencia del proceso en Eclipse:**
+<img width="597" height="346" alt="Captura3Refactorizacion1_015" src="https://github.com/user-attachments/assets/24008a02-5209-475e-bf96-86b72819042b" />
 
-<img width="590" height="307" alt="Rename Class" src="https://github.com/user-attachments/assets/203c4dcd-8887-491e-b6f9-66a17680ec11" />
+
+---
+
+### 3.2. Patrón: Extract Method (Extracción de Método)
+Se ha seleccionado la lógica del cálculo del subtotal (`precio * cantidad`) para extraerla a un nuevo método privado llamado `calcularSubtotal`, mejorando la modularidad de la clase.
+
+> **Evidencia del proceso en Eclipse:**
+<img width="587" height="702" alt="Captura4Refactorizacion2Precio" src="https://github.com/user-attachments/assets/785ddc1e-7574-4dfc-a40f-dc514c82f2b1" />
+
+
+---
+
+### 3.3. Patrón: Rename (Cambio de Nombre)
+Se ha modificado el nombre de la clase original `Ejercicio02` por `CalculadoraPedido`. El IDE se ha encargado de actualizar todas las referencias automáticamente.
+
+> **Evidencia del proceso en Eclipse:**
+<img width="590" height="307" alt="Captura5Refactorizacion3Nombre" src="https://github.com/user-attachments/assets/412f9542-c85e-400f-ae17-01cd294a7543" />
+
+
 
 ---
 
