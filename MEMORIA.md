@@ -11,7 +11,7 @@
 Se ha renombrado la rama principal a `master` y se ha aplicado una regla de protección que impide realizar "pushes" directos. [cite_start]Todo cambio debe integrarse mediante una **Pull Request** que requiere resolución de conversaciones.
 
 > **Evidencia de protección de ramas:**
-> ![Configuración de Master]([PEGA AQUÍ EL ENLACE O SUBE TU CAPTURA 1.1 RULES])
+<img width="1887" height="463" alt="Captura1 1Rules" src="https://github.com/user-attachments/assets/c3556039-d66a-4669-ac1e-26224ed19f0d" />
 
 ### 1.2. Colaboradores
 [cite_start]Se han añadido miembros al equipo como colaboradores para simular un entorno de trabajo real y permitir la revisión de código.
