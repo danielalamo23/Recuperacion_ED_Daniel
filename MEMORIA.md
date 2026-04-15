@@ -11,6 +11,7 @@ Para cumplir con los estándares de desarrollo profesional exigidos, se han real
 Se ha renombrado la rama principal a `master` y se ha aplicado una regla de protección que impide realizar "pushes" directos. Todo cambio debe integrarse mediante una **Pull Request** que requiere resolución de conversaciones.
 
 > **Evidencia de protección de ramas:**
+
 > <img width="920" height="692" alt="Captura1Rules" src="https://github.com/user-attachments/assets/5ad1ae5a-2cb8-4677-9b05-47971301bccd" />
 > <img width="1887" height="463" alt="Captura1 1Rules" src="https://github.com/user-attachments/assets/1fb868ab-8fe0-4b87-95c2-51a59244d0fd" />
 
